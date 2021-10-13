@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(207, 243, 159);
+}
+.container{
+    background-color: white;
+    width: 860px; /*paddingの影響範囲を想定し、ヒーローイメージの横幅860pxに合わせる*/
+    margin: 0 auto;/*中央配置*/
+    padding: 20px 50px;/*内側に余白*/
+}
+.navi{
+    display:flex;/*横配置*/
+    list-style: none;/*リスト先頭の「・」を削除*/
+    justify-content: flex-end;/*フレックスコンテナの主軸の終点（右側）に揃える*/
+}
+.navi li{
+    background-color: saddlebrown;/*ナビゲーションメニューの背景色*/
+    color: white;
+    padding: 10px 30px;/*内側の余白*/
+    margin-left: 10px;/*右に寄せるため、左側のmargin*/
+}
+
+h2{
+    text-align: center;/*MENUの文字中央配置*/
+    color: saddlebrown;/*naviの背景と同じ文字色*/
+    border-bottom: 2px dotted saddlebrown;/*下線設定*/
+    padding: 30px 0 20px;/*見出しの上下の間隔設定*/
+}
+
+.menu{
+    display: flex;/*横配置*/
+    list-style: none;/*リスト先頭の「・」を削除*/
+    justify-content: space-between;/*等間隔*/
+    padding: 0px;/*user agent stylesheetの初期値リセット*/
+}
+
+.text_data{
+    margin: 30px 0;/*段落の上下間隔*/
+    font-size: 0.8rem;/*文字を小さくする*/
+    line-height: 1.7;/*文字同士の間隔設定*/
+}
+
+.copy{
+    text-align: center;/*コピーライトの中央配置*/
+    border-top: 2px double green ;/*コピーライトの上線*/
+    padding-top: 30px;/*コピーライトの文字と上線の間隔設定*/
+}
